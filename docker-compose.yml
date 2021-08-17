@@ -23,8 +23,8 @@ services:
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
       ME_CONFIG_MONGODB_URL: mongodb://root:rootpassword@mongodb_container:27017/
   
- volumes:
-    mongodb_data_container:
+  volumes:  
+     mongodb_data_container:
    
 
 
