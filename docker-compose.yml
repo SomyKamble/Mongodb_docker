@@ -23,9 +23,7 @@ volumes:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
       ME_CONFIG_MONGODB_URL: mongodb://root:rootpassword@mongodb_container:27017/
-    depends_on: 
-        - mongodb_container
-
+   
 
 
   
